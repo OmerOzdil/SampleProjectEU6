@@ -45,7 +45,7 @@ public class NavigationMenuStepDefs {
     public void the_user_navigates(String tab, String module) {
        new DashboardPage().navigateToModule(tab,module);
     }
-
+// kusura bakmayin
     @Then("default page number should be {int}")
     public void default_page_number_should_be(Integer expectedPageNumber) {
         BrowserUtils.waitFor(2);
