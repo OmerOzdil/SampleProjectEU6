@@ -21,6 +21,8 @@ public class LoginStepDefs {
         //driver.get(url);
         //instead of driver object we will use Driver.get() directly
         String url = ConfigurationReader.get("url");
+        // I have changed
+        // sghdjfkfk
         Driver.get().get(url);
     }
 
