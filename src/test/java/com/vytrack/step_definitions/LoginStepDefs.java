@@ -35,6 +35,7 @@ public class LoginStepDefs {
 
     @Then("the user should be able to login")
     public void the_user_should_be_able_to_login() {
+        //3 seconds added for this method
         BrowserUtils.waitFor(3);
 
         String actualTitle = Driver.get().getTitle();
