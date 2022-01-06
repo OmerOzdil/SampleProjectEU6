@@ -30,7 +30,7 @@ public class LoginStepDefs {
         String password = ConfigurationReader.get("driver_password");
         LoginPage loginPage = new LoginPage();
         loginPage.login(username,password);
-
+// it is working
     }
 
     @Then("the user should be able to login")
