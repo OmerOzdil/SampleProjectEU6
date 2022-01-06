@@ -37,7 +37,7 @@ public class LoginStepDefs {
     public void the_user_should_be_able_to_login() {
         //3 seconds added for this method
         BrowserUtils.waitFor(3);
-
+        //here is the string for the title
         String actualTitle = Driver.get().getTitle();
         Assert.assertEquals("Verify title","Dashboard",actualTitle);
 

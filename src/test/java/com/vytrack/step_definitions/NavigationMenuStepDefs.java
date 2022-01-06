@@ -25,6 +25,7 @@ public class NavigationMenuStepDefs {
 
     @Then("the title should be Campaigns")
     public void the_title_should_be_Campaigns() {
+        //here is the output
         System.out.println("Expected and Actual title are matching");
 
     }
