@@ -40,7 +40,7 @@ public class LoginStepDefs {
         //here is the string for the title
         String actualTitle = Driver.get().getTitle();
         Assert.assertEquals("Verify title","Dashboard",actualTitle);
-
+        // my change
 
     }
 
